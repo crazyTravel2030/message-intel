@@ -11,7 +11,7 @@ import java.time.Instant;
 import java.util.List;
 import java.util.Map;
 
-@Document(indexName = "intel-messages")
+@Document(indexName = "intel-messages", createIndex = false)
 public class MessageDocument {
 
     @Id
